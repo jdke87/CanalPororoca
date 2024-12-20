@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Online</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #003399;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003399;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .article {
+            background-color: white;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .article h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #003399;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Canal Pororoca</h1>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Notícias</a>
+        <a href="#">Opinião</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <main class="container">
+        <article class="article">
+            <h2>Título da Notícia 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel magna eget libero fermentum malesuada.</p>
+        </article>
+
+        <article class="article">
+            <h2>Título da Notícia 2</h2>
+            <p>Sed sit amet sapien vel justo hendrerit feugiat in nec mauris. Nullam euismod, urna a ultrices volutpat.</p>
+        </article>
+
+        <article class="article">
+            <h2>Título da Notícia 3</h2>
+            <p>Proin mollis nisl ut dolor vehicula, vitae accumsan turpis pellentesque. Aliquam erat volutpat.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Canal Pororoca. Todos os direitos reservados. <a href="#">Política de Privacidade</a></p>
+    </footer>
+</body>
+</html>
